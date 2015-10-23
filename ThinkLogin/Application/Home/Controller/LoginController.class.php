@@ -116,4 +116,8 @@ class LoginController extends Controller {
         $verify->useNoise = false;  // 关闭验证码干扰杂点
         $verify->entry();
     }
+
+    public function polo () {
+        $this->display();
+    }
 }
