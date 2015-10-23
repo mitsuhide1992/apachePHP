@@ -1,0 +1,173 @@
+@charset "gb2312";
+/* CSS Document */
+* { margin: 0; padding: 0 }
+body { font: 12px "宋体", "Arial Narrow", HELVETICA; color: #3F3E3C; line-height: 1.5; background: url(../images/sinabloga.jpg) repeat #B29C77 }
+img { border: 0; vertical-align: middle }
+p { display: block; }
+ul { list-style: none; }
+a { color: #865400; text-decoration: none; }
+a:hover { text-decoration:none }
+.blank { height: 5px; overflow: hidden; width: 100%; margin: auto; clear: both }
+article{ width:960px;margin:auto;border-left:#b29c77 10px solid; border-right:#b29c77 10px solid; box-shadow: 0px -4px 6px 4px #726758; background:#E3D6C3; overflow:hidden; }
+/* header */
+header { width: 100%; background:url(../images/sinablogb.jpg) no-repeat center #E3D6C3; height:290px; position:relative}
+.toptitle{
+	position: absolute;
+	left: 233px;
+	top: 89px;
+}
+.toptitle h1{ color:#9E6B25; font: 24px "微软雅黑", "Microsoft YaHei", Arial, Helvetica, sans-serif;}
+.byline{ color:#f2e4d1; text-align:right; margin-top:20px; font-size:14px;}
+.sign{ text-align:right; margin:21px 80px 0; color:#7C7B77}
+/* leftbox */
+.leftbox{ padding-left:10px;width:210px; float:left}
+.leftbox h2,.rightbox h2{ background:url(../images/tp.jpg) repeat-x ; color:#8B745C; font-size:12px; font-family: "宋体",sans-serif; padding:5px; border:#F7F3EE 1px solid}
+.box{ background:#F7F3EE; width:208px; border:#B19C76 1px solid; margin-bottom:10px}
+.vcard{ padding-bottom:10px}
+.photo{ display:block; margin:10px auto}
+.vcard p{ text-indent:2em; color:#917F5F; line-height:24px}
+.blogclass ul{ padding:10px 0}
+.blogclass ul li{ background:url(../images/dot.gif) no-repeat left center; padding:0 0 0 10px; margin-left:20px}
+.friends{ overflow:hidden;padding-bottom:10px; }
+.friends ul{ padding-left:8px;}
+.friends ul li { display: inline; width: 48px; height: 48px; }
+.friends ul li img { width: 48px; height: 48px; border: 0; display: block; float: left; }
+.friends ul li img:hover { opacity: 0.5 }
+/* rightbox */
+.rightbox{ float:right; width:720px; margin-right:10px;}
+.text{ padding:20px; line-height:24px; text-indent:2em}
+.textimg{ text-align:center; text-indent:0}
+.text p{ margin-bottom:10px}
+h3.title{ font-size:16px; text-align:center;}
+.textfoot{ text-align:right; padding:10px; border-bottom: dotted 1px #B19D7A; margin:0 20px 20px}
+.textfoot a{ padding-right:10px}
+.pages { padding: 0 60px 25px;  text-align: right }
+.pages span { background: #B29C77; color: #fff; }
+.pages a { background: #fff; color: #454545; padding: 5px 8px; border: none; margin: 0 0 0 5px; }
+.pages span { padding: 5px 8px; border: none; margin: 0 0 0 5px; }
+.pages a:hover { background: #CCC; }
+/* Copyright */
+.Copyright { text-align: center; margin: 40px 0 0 }
+.Copyright ul a {  padding: 0 10px; }
+ul.article-list {padding: 0 22px 0 20px;}
+.time{text-indent:40em;color:#706666}
+.article{padding:20px;text-indent:2em;font-size:15px;}
+.snPages {
+position: relative;
+top:-4px;
+text-align: center;
+font-size:14px;
+}
+.snPages span.prev {
+width: 68px;
+height: 24px;
+line-height: 24px;
+margin: 0;
+text-align: center;
+border: 1px solid #d7d7d7;
+color: #b1b1b1;
+background: #fff;
+}
+.snPages a, .snPages a:visited {
+height: 24px;
+line-height: 24px;
+padding: 0 8px;
+text-align: center;
+border: 1px solid #d7d7d7;
+background: #fff;
+margin-left: 5px;
+margin-right: 5px;
+}
+span.next {
+width: 68px;
+height: 24px;
+line-height: 24px;
+line-height: 28px\9;
+_line-height: 24px;
+margin-left: 4px;
+text-align: center;
+border: 1px solid #d7d7d7;
+color: #b1b1b1;
+background: #fff;
+}
+/*2014.12.22 新加翻页效果的CSS 结束结束*/
+.current{
+height: 24px;
+line-height: 24px;
+padding: 0 8px;
+text-align: center;
+border: 1px solid #d7d7d7;
+background: #fff;
+font-weight:800;
+}
+.nav {
+	height: 26px;
+    position: relative;
+    top: 249px;
+    left: 284px;
+    font-weight: 600;
+
+}
+.nav-ul li{float:right;
+	padding: 0px 13px;
+    border-right:1px dotted #ccc;
+	list-style-type:none;}
+.nav ul {
+        
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+
+}
+.nav ul li {
+	float: left;
+	padding: 0px 13px;
+    border-right:1px dotted #ccc;
+	list-style-type:none;
+}
+.submit1{
+   width: 78px;
+height: 32px;
+border: none;
+background: #A5865A;
+color: #FFFFFF;
+text-align: center;
+margin-top: 20px;
+margin-left: 430px;
+margin-bottom: 20px;
+}
+.notebox{
+overflow:hidden;
+border-top:1px solid #ccc;
+margin-bottom:30px;
+padding-top:10px;
+}
+.noteuser{
+float:left;
+width:115px;
+font-size: 14px;
+}
+.notename{
+color: #26709A;font-size: 15px;font-family: Microsoft YaHei;padding-left:10px
+}
+.notetime{
+padding-left:10px;color:#ccc;#9B9B9B;font-family: Microsoft YaHei;font-size: 12px;
+}
+.notecontent{
+float:right;width:570px;padding-right:20px;
+}
+.title1{
+height: 24px;
+width: 200px;
+margin-bottom: 18px;
+}
+.photobox ul li img{  height: 153px;width: 133px;margin: 16px 17px 0 22px;cursor:pointer;}
+.photobox{width:710px;height:415px;overflow:hidden;}
+.photobox ul li{list-style:none;float:left;display: inline-block;overflow: hidden;white-space: nowrap;}
+.photo-time{
+font-size: 13px;
+color: #574E4E;
+padding-left: 27px;
+}
+#showphoto{ position:absolute; width:426px; height:293px; z-index:200;}
+#info{ position:absolute; top:380px; left:10px; margin-left:28px; padding:5px; width:416px; height:45px; background:url(info_bg.png) center center no-repeat;}
+#photo{ position:fixed; top:60px; left:493px; border:3px solid #fff; cursor:pointer;}

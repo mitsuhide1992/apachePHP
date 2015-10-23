@@ -1,0 +1,24 @@
+[ 2015-10-23T12:54:35+08:00 ] ::1 /ThinkLogin/index.php/index2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index2
+
+[ 2015-10-23T12:54:42+08:00 ] ::1 /ThinkLogin/index.php/index2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index2
+
+[ 2015-10-23T12:59:31+08:00 ] ::1 /ThinkLogin/index.php/index2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index2
+
+[ 2015-10-23T12:59:33+08:00 ] ::1 /ThinkLogin/index.php/index2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index2
+
